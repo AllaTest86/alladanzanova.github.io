@@ -64,6 +64,7 @@
   .about-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 5rem; align-items: start; }
   .about-intro { font-size: 1.1rem; color: var(--ink-mid); line-height: 1.75; margin-bottom: 1.5rem; }
   .about-intro strong { color: var(--ink); font-weight: 600; }
+  .profile-photo { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; object-position: center top; border: 3px solid var(--accent-light); margin-bottom: 1.75rem; display: block; }
   .about-detail { font-size: 0.95rem; color: var(--ink-muted); line-height: 1.7; margin-bottom: 1.5rem; }
   .edge-callout { background: var(--ink); color: var(--paper); padding: 2rem; margin-top: 2rem; position: relative; }
   .edge-callout::before { content: '"'; font-family: var(--font-serif); font-size: 6rem; line-height: 0; color: var(--accent); position: absolute; top: 2.5rem; left: 1.5rem; opacity: 0.3; }
@@ -207,6 +208,7 @@
   <div class="about-grid">
     <div class="about-left reveal">
       <div class="section-label">About</div>
+      <img src="profile.jpg" alt="Alla Danzanova" class="profile-photo">
       <h2 class="section-title">Quality as a system, not a gate</h2>
       <p class="about-intro">I'm a Senior QA Engineer specializing in <strong>AI systems validation</strong> — with hands-on experience testing voice assistants, LLM-powered chatbots, and on-device AI features on consumer hardware at Meta scale.</p>
       <p class="about-detail">At Meta Reality Labs, I validated the full AI stack on Ray-Ban Meta and Oakley Vanguard smart glasses — wake word detection, command recognition, TTS quality, Meta AI chatbot response accuracy, AI Summary context handling, and hallucinated vs. accurate output detection. I also designed and executed performance and stability testing across no-network, degraded-network, and extended endurance scenarios.</p>
